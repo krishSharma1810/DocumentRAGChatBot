@@ -14,7 +14,6 @@ The Document RAG ChatBot is an AI-powered chatbot designed to process and retrie
 ### Prerequisites
 Ensure you have the following installed:
 - Python 3.8+
-- Node.js and npm (for additional UI features)
 - Virtual environment (optional but recommended)
 
 ### Clone the Repository
@@ -35,19 +34,9 @@ cd DocumentRAGChatBot
    ```
 3. Run the backend:
    ```sh
-   python app.py
-   ```
-
-### Frontend Setup (Streamlit)
-1. Install dependencies:
-   ```sh
-   pip install streamlit
-   ```
-2. Start the Streamlit UI:
-   ```sh
    streamlit run app.py
    ```
-
+   
 ## Usage
 1. Upload a document through the Streamlit interface.
 2. Ask questions related to the uploaded document.
